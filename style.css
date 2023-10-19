@@ -25,7 +25,7 @@ nav a {
 }
 
 
-.carousel-item {
+/* .carousel-item {
     height: 32rem;
     background: rgb(231, 229, 229);
     align-items: center;
@@ -38,7 +38,7 @@ nav a {
     object-fit: cover;
     width: 200%;
     height: 100%;
-}
+} */
 
 @import "bootstrap";
 
@@ -46,10 +46,10 @@ nav a {
     background-color: orange
 }
 
-.cstm-height-card .card-img-top {
+/* .cstm-height-card .card-img-top {
     height: 100px;
     object-fit: cover;
-}
+} */
 
 
 
