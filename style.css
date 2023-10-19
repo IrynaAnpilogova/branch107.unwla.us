@@ -6,9 +6,9 @@ nav a {
 }
 
 .hero-img img {
-    width: 100%;
+    /* width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover; */
     /* Заповнює всю площу картинкою, зберігаючи пропорції */
 }
 
@@ -30,14 +30,14 @@ nav a {
     background: rgb(231, 229, 229);
     align-items: center;
     justify-content: center;
-    max-width: 100%;
-
+   
 }
 
-.carousel-item img {
-    max-width: 200%;
-    max-height: 200%;
 
+.carousel-item img {
+    object-fit: cover;
+    width: 200%;
+    height: 100%;
 }
 
 @import "bootstrap";
