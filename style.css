@@ -2,19 +2,19 @@ nav a {
 
     color: rgb(220, 117, 117);
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.0em;
 }
 
-.hero-img img {
-    /* width: 100%;
+/* .hero-img img {
+    width: 100%;
     height: 100%;
-    object-fit: cover; */
-    /* Заповнює всю площу картинкою, зберігаючи пропорції */
-}
+    object-fit: cover;
+  
+} */
 
 .navbar-nav {
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.0em;
 }
 
 
@@ -124,15 +124,18 @@ nav a {
 }
 
 .footer .row {
-    display: flex; /* Use flexbox to create a horizontal layout */
-    justify-content: center; /* Center-align the social icons horizontally */
-    align-items: center; /* Center-align vertically */
+    display: flex;
+    /* Use flexbox to create a horizontal layout */
+    justify-content: center;
+    /* Center-align the social icons horizontally */
+    align-items: center;
+    /* Center-align vertically */
     width: 100%;
     margin: 1% 0%;
     padding: 0.6% 0%;
     color: rgb(255, 253, 253);
     font-size: 1em;
-    
+
 }
 
 .footer .row a {
@@ -158,10 +161,11 @@ nav a {
 .footer .row a i {
     font-size: 2em;
     margin: 0% 1%;
-    display:inline-flex;
-   
+    display: inline-flex;
+
 }
-.social-icons{
+
+.social-icons {
     display: inline-flex;
 }
 
@@ -171,6 +175,7 @@ nav a {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -178,9 +183,40 @@ nav a {
 
 /* Apply the animation to the image */
 .animated-image {
-    animation: fade-in-left 3s ease-in-out; /* Adjust the animation duration and timing function as needed */
+    animation: fade-in-left 3s ease-in-out;
+    /* Adjust the animation duration and timing function as needed */
 }
 
+#zeffy-donation-form {
+    display: none;
+}
 
-   
+.cards-wrapper {
+    display: flex;
+}
 
+.card-1 {
+    margin: 0.5em;
+    width: calc(100%/3);
+}
+
+/* Style the custom control buttons */
+/*  */
+
+/* Custom CSS for responsive card layout */
+@media (min-width: 992px) {
+    .cards-wrapper .card-1 {
+        flex: 0 0 33.333%; /* Display 3 cards per row on laptop screens */
+    }
+}
+
+@media (max-width: 991px) {
+    .cards-wrapper .card-1 {
+        flex: 0 0 100%; /* Display 1 card per row on mobile screens */
+    }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: #000 !important; /* Change to your desired dark color */
+}
