@@ -10,20 +10,17 @@ nav a {
     font-size: 1.0em;
 }
 
-
 .audio-container {
     margin-top: 3em;
     margin-left: 1em;
     margin-bottom: 1em;
 }
 
-
 @import "bootstrap";
 
 .bg-primary {
     background-color: orange
 }
-
 
 @media (min-width: 1200px) {
     .custom-h1 {
@@ -55,10 +52,7 @@ nav a {
         color: #0f0f0e;
         text-align: center;
     }
-
 }
-
-
 
 .snowflake {
     position: absolute;
