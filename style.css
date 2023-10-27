@@ -24,7 +24,7 @@ nav a {
 
 @media (min-width: 1200px) {
     .custom-h1 {
-        font-size: 4rem;
+        font-size: 3rem;
         /* Your new font size here */
         font-family: 'Avenir', sans-serif;
         color: #0f0f0e;
@@ -32,7 +32,7 @@ nav a {
     }
 
     .custom-h2 {
-        font-size: 3rem;
+        font-size: 2rem;
         /* Your new font size here */
         font-family: 'Avenir', sans-serif;
         color: #0f0f0e;
@@ -46,7 +46,7 @@ nav a {
     }
 
     .custom-h3 {
-        font-size: 2rem;
+        font-size: 1rem;
         /* Your new font size here */
         font-family: 'Avenir', sans-serif;
         color: #0f0f0e;
